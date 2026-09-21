@@ -36,4 +36,12 @@ public class Productos
 		recio = precio;
 		this.calidad = calidad;
 	}
+
+	//Métodos
+	public void MostrarDatos()
+	{
+		Console.WriteLine("Nombre: " + nombre);
+		Console.WriteLine("Precio: " + precio);
+		Console.WriteLine("Calidad: " + calidad);
+	}
 }
