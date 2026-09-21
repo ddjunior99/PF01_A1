@@ -34,5 +34,13 @@ public class Persona
         this.edad = edad;
         this.sexo = sexo;
     }
+
+    //Métodos
+    public void MostrarInformacion()
+    {
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+        Console.WriteLine("Sexo: " + sexo);
+    }
 }
 }
