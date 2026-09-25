@@ -1,4 +1,8 @@
-﻿namespace PF01_Act1
+﻿using System;
+using System.Text;
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+namespace PF01_Act1
 {
     class Program
     {
@@ -8,6 +12,7 @@
 
             p.MostrarInformacion();
             p.CumplirAnios();
+            p.MayorEdad();
         }
     }
 }
