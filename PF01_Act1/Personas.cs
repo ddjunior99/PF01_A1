@@ -42,7 +42,7 @@ public class Persona
         Console.WriteLine("Edad: " + edad);
         Console.WriteLine("Sexo: " + sexo);
     }
-<<<<<<< HEAD
+
 
     public void MayorEdad()
 	{
@@ -55,11 +55,11 @@ public class Persona
 			Console.WriteLine(nombre + " es menor de edad.");
 		}
 	}
-=======
+
     public void CumplirAnios()
     {
         edad++;
         Console.WriteLine(nombre + " ha cumplido " + edad + " años.");
     }
->>>>>>> d6903d9fd351215dbd977746995cb7af4ed5d084
+
 }
