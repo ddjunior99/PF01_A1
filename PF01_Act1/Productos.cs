@@ -32,30 +32,24 @@ public class Productos
 
 	Producto(string nombre, double precio, string calidad)
 	{
-<<<<<<< HEAD
-		Nombre = nombre;
-		recio = precio;
-=======
+
+		
 		this.nombre = nombre;
 		this.precio = precio;
->>>>>>> func2
+
 		this.calidad = calidad;
 	}
 
 	//Métodos
-<<<<<<< HEAD
+
 	
-=======
+
 	public void MostrarDatosProductos()
->>>>>>> func2
+
 	{
 		Console.WriteLine("Nombre: " + nombre);
 		Console.WriteLine("Precio: " + precio);
 		Console.WriteLine("Calidad: " + calidad);
 	}
-<<<<<<< HEAD
-=======
 
-	
->>>>>>> func2
 }
