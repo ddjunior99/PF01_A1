@@ -44,7 +44,7 @@ public class Productos
 
 	//Métodos
 <<<<<<< HEAD
-	public void MostrarDatos()
+	
 =======
 	public void MostrarDatosProductos()
 >>>>>>> func2
