@@ -42,5 +42,28 @@ public class Persona
         Console.WriteLine("Edad: " + edad);
         Console.WriteLine("Sexo: " + sexo);
     }
+<<<<<<< HEAD
 }
+=======
+
+
+    public void MayorEdad()
+	{
+		if (edad >= 18)
+		{
+			Console.WriteLine(nombre + " es mayor de edad.");
+		}
+		else
+		{
+			Console.WriteLine(nombre + " es menor de edad.");
+		}
+	}
+
+    public void CumplirAnios()
+    {
+        edad++;
+        Console.WriteLine(nombre + " ha cumplido " + edad + " años.");
+    }
+
+>>>>>>> func2
 }
